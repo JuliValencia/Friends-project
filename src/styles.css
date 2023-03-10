@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Gabriel Weiss' Friends Font";
+  src: url("src/gabriel_weiss_friends/gabrwffr.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Gabriel Weiss' Friends Font";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+}
