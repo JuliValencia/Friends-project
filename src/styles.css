@@ -40,6 +40,18 @@ body {
   grid-gap: 20px;
 }
 
+.videos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  max-width: 1200px;
+  margin: 30px;
+}
+.video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+}
 .card {
   background: var(--primary-color);
   margin: 30px 0;
