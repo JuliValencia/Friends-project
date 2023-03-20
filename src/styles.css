@@ -20,6 +20,9 @@ body {
   margin: 0 auto;
 }
 
+.text-center {
+  text-align: center;
+}
 .grid {
   display: grid;
   grid-gap: 64px;
@@ -31,6 +34,10 @@ body {
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .grid-container {
   display: grid;
   justify-content: center;
@@ -38,11 +45,22 @@ body {
 }
 .img-responsive {
   max-width: 100%;
+  border-radius: 8px;
+}
+
+.grid-3-columns p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
 }
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+
+section.secondary {
+  background-color: #f9f4ff;
 }
 
 header {
@@ -124,13 +142,22 @@ main h3 {
   line-height: 1.5;
   margin: 0;
 }
+
+main h4 {
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+}
+
+main h5 {
+  font-family: var(--primary-font);
+}
 main p {
   font-family: var(--primary-font);
   color: var(--secondary-color);
   opacity: 0.7;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1;
 }
 main a {
   font-family: var(--primary-font);
@@ -147,6 +174,7 @@ main a {
   display: inline-block;
   border-radius: 8px;
 }
+
 footer {
   color: var(--primary-color);
   background-image: linear-gradient(
