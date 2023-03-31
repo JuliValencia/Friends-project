@@ -314,4 +314,9 @@ footer a {
   section {
     padding: 30px;
   }
+
+  h1,
+  h3 {
+    font-family: "Gabriel Weiss' Friends Font";
+  }
 }
